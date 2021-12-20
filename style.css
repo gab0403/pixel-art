@@ -8,45 +8,47 @@
     justify-content: center;
 }
 
-.color{
+.color {
    border: 1px solid black;
    height: 50px;
    width: 50px;
  
 }
 
-#cor1{
+#cor1 {
     background-color: black;
 }
 
-#cor2{
+#cor2 {
     background-color: #cdb4db; 
 }
 
-#cor3{
+#cor3 {
     background-color: #83c5be;    
 }
 
-#cor4{
+#cor4 {
     background-color: #e5989b;
 }
 
-#pixel-board{
+#pixel-board {
     display: flex;
     flex-direction: column; /*Define como os elementos serão colocados no contêiner*/
     align-items: center;
     padding: 15px;
+   
+  
 }
 
-.pixel{
+.pixel {
     display: table-cell; /*Comporta-se como o <td> do HTML.*/
     border: 1px solid black;
-    height: 50px;
-    width: 50px;
     background-color: white;
+    width: 40px;
+    height: 40px;
 }
 
-.largura-comprimento{
+.largura-comprimento {
     display: table-row; /*Comporta-se como o <tr> do HTML.*/
 }
 
