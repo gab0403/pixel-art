@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1 id="title">Paleta de Cores</h1>
-     </header>
+    </header>
     <section>
         <div id="color-palette">
             <div class="color selected" id="cor1"></div>
@@ -20,13 +20,15 @@
         </div>
     </section>
     <nav>
-        <h2 id="subtitulo">Escolha o tamanho da sua grade de pixels, de 5 até 50.</h2>
-        <input type="text" name="tamanhoDaGrade" id="board-size">
-        <button type="submit" id="generate-board">VQV</button>
+        <h2 id="subtitulo">Escolha o tamanho da sua grade de pixels, entre 5 e 50.</h2>
+        <div id="botao1">
+            <input type="number" name="tamanhoDaGrade" value="5" min="1" max= "50" id="board-size">
+            <button type="submit" id="generate-board">VQV</button>
+        </div>
         <h3 id="novoDesenho">Faça um novo desenho:</h3>
         <button id="clear-board">Limpar</button>
     </nav>
-   
+
     <section>
         <div id="pixel-board">
             <div class="largura-comprimento">
