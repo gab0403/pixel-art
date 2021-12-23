@@ -6,6 +6,7 @@
 #color-palette {
     display: flex;
     justify-content: center;
+    cursor: pointer; /*A seta do mouse torna-se a mão com o indicador*/
 }
 
 .color {
@@ -37,8 +38,8 @@
     flex-direction: column; /*Define como os elementos serão colocados no contêiner*/
     align-items: center;
     padding: 15px;
+    cursor: pointer; /*A seta do mouse torna-se a mão com o indicador*/
    
-  
 }
 
 .pixel {
@@ -52,4 +53,26 @@
 .largura-comprimento {
     display: table-row; /*Comporta-se como o <tr> do HTML.*/
 }
-
+#subtitulo{
+    text-align: center;
+    color: rgb(216, 120, 168);
+    font-size: 20px;
+}
+#board-size{
+   display: block;
+   margin: auto;
+   
+}
+#generate-board{
+    display: block;
+    margin: auto;
+}
+#novoDesenho{
+    text-align: center;
+    color: rgb(216, 120, 168);
+    font-size: 20px; 
+}
+#clear-board{
+    display: block;
+    margin: auto;
+}
